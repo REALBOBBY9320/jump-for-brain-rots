@@ -3,211 +3,155 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jump for Brain Rots</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+<title>Skyjump for Brainrots</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Poppins,sans-serif;
-}
-
-body{
-background:#090909;
-color:white;
-overflow-x:hidden;
-}
-
-body::before{
-content:"";
-position:fixed;
-width:600px;
-height:600px;
-background:#7b2cff;
-filter:blur(180px);
-top:-250px;
-left:-150px;
-opacity:.35;
-z-index:-2;
-}
-
-body::after{
-content:"";
-position:fixed;
-width:500px;
-height:500px;
-background:#00d9ff;
-filter:blur(170px);
-bottom:-200px;
-right:-100px;
-opacity:.25;
-z-index:-2;
-}
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:25px 10%;
-backdrop-filter:blur(10px);
-position:sticky;
-top:0;
-}
-
-.logo{
-font-size:28px;
-font-weight:700;
-color:#8d63ff;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:25px;
-}
-
-.hero{
-height:90vh;
-display:flex;
-justify-content:center;
-align-items:center;
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+body{background:#0c1020;color:white}
+header{
+padding:80px 20px;
 text-align:center;
-padding:20px;
+background:linear-gradient(135deg,#4f46e5,#7c3aed,#06b6d4);
 }
-
-.hero h1{
-font-size:65px;
-margin-bottom:20px;
-}
-
-.hero p{
-color:#bfbfbf;
-max-width:700px;
-margin:auto;
-line-height:1.8;
-}
-
-.btn{
+header h1{font-size:60px}
+header p{font-size:20px;margin-top:15px;max-width:700px;margin-left:auto;margin-right:auto}
+.button{
 display:inline-block;
-margin-top:35px;
+margin-top:30px;
 padding:15px 35px;
-background:#8d63ff;
-border-radius:14px;
+background:white;
+color:#222;
 text-decoration:none;
-color:white;
-font-weight:600;
-transition:.3s;
+font-weight:bold;
+border-radius:12px;
 }
-
-.btn:hover{
-transform:translateY(-5px);
-box-shadow:0 0 30px #8d63ff;
+section{
+max-width:1100px;
+margin:auto;
+padding:70px 20px;
 }
-
-.section{
-padding:90px 10%;
+h2{
+margin-bottom:20px;
+font-size:38px;
+color:#8ab4ff;
 }
-
-.title{
-font-size:40px;
-margin-bottom:40px;
-text-align:center;
-}
-
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:25px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
-
 .card{
-background:rgba(255,255,255,.05);
-border:1px solid rgba(255,255,255,.08);
-border-radius:20px;
-padding:30px;
-transition:.3s;
-backdrop-filter:blur(20px);
+background:#171b33;
+padding:25px;
+border-radius:16px;
 }
-
-.card:hover{
-transform:translateY(-10px);
-box-shadow:0 0 35px rgba(141,99,255,.4);
-}
-
-.card h3{
-margin-bottom:10px;
-}
-
 footer{
-padding:40px;
 text-align:center;
-color:#888;
+padding:40px;
+background:#11152a;
+color:#999;
 }
 </style>
 </head>
-
 <body>
 
-<nav>
-<div class="logo">Jump for Brain Rots</div>
-
-<div>
-<a href="#">Home</a>
-<a href="#">Features</a>
-<a href="#">Updates</a>
-<a href="#">Discord</a>
-</div>
-</nav>
-
-<section class="hero">
-<div>
-<h1>Jump for Brain Rots</h1>
+<header>
+<h1>☁️ Skyjump for Brainrots</h1>
 
 <p>
-Jump through the skies, unlock powerful Brain Rots,
-earn coins, discover rare collectibles, and compete with
-players around the world.
+Jump from cloud to cloud, collect unique Brainrots, earn coins, unlock stronger jumps,
+and climb your way to the top of the leaderboard!
 </p>
 
-<a class="btn" href="#">Play Now</a>
-</div>
+<a class="button"
+href="https://www.roblox.com/games/111642482711761/Skyjump-for-Brainrots"
+target="_blank">
+🎮 Play Now
+</a>
+
+</header>
+
+<section>
+
+<h2>About The Game</h2>
+
+<p>
+Skyjump for Brainrots is a Roblox adventure where players explore the skies,
+discover rare Brainrots, earn coins, and compete to become the strongest jumper.
+Each update adds brand-new content, better rewards, and exciting surprises.
+</p>
+
 </section>
 
-<section class="section">
+<section>
 
-<h2 class="title">Features</h2>
+<h2>Game Features</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>🚀 Fast Progression</h3>
-<p>Unlock stronger Brain Rots and climb higher every rebirth.</p>
+<h3>🧠 Collect Brainrots</h3>
+<p>Unlock dozens of unique Brainrots as you progress.</p>
 </div>
 
 <div class="card">
-<h3>💎 Rare Collectibles</h3>
-<p>Find limited Brain Rots and exclusive rewards.</p>
+<h3>☁️ Jump Through The Sky</h3>
+<p>Travel across floating clouds and reach incredible heights.</p>
+</div>
+
+<div class="card">
+<h3>💰 Earn Coins</h3>
+<p>Collect coins to unlock upgrades and powerful abilities.</p>
 </div>
 
 <div class="card">
 <h3>🏆 Leaderboards</h3>
-<p>Compete against other players for the top spot.</p>
+<p>Compete against other players and become #1.</p>
 </div>
 
 <div class="card">
-<h3>🎁 Daily Rewards</h3>
-<p>Come back every day for free bonuses and surprises.</p>
+<h3>🎁 Frequent Updates</h3>
+<p>New Brainrots, new worlds, and more content are added regularly.</p>
+</div>
+
+<div class="card">
+<h3>⭐ Free Rewards</h3>
+<p>Log in every day to claim daily bonuses.</p>
 </div>
 
 </div>
 
 </section>
 
+<section>
+
+<h2>Development</h2>
+
+<p>
+Skyjump for Brainrots is actively being developed. We regularly improve gameplay,
+fix bugs, and add exciting content based on player feedback.
+</p>
+
+</section>
+
+<section>
+
+<h2>Future Updates</h2>
+
+<ul>
+<li>🌍 New Worlds</li>
+<li>🧠 More Brainrots</li>
+<li>👑 Seasonal Events</li>
+<li>🎉 Limited-Time Rewards</li>
+<li>⚡ Better Performance</li>
+</ul>
+
+</section>
+
 <footer>
-© 2026 Jump for Brain Rots. All Rights Reserved.
+
+© 2026 Skyjump for Brainrots Studio
+
 </footer>
 
 </body>
